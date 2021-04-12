@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+section {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Josefin Sans", sans-serif;
+  color: #fff;
+}
+
+h1,
+p {
+  cursor: default;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button {
+  color: #fff;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.fadeUp {
+  animation: fadeUp both 0.9s ease;
+}
+
+.move {
+  box-shadow: 0px 0px 61px -8px rgba(0, 0, 0, 0.63) inset;
+  -webkit-box-shadow: 0px 0px 61px -8px rgba(0, 0, 0, 0.63) inset;
+  -moz-box-shadow: 0px 0px 61px -8px rgba(0, 0, 0, 0.63) inset;
+  background-color: #3c40c6;
+  opacity: 1;
+  background-image: radial-gradient(#6264f1 2px, transparent 2px),
+    radial-gradient(#4f53cb 2px, #3c40c6 2px);
+  background-size: 80px 80px;
+  background-position: 0 0, 40px 40px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.spin {
+  transform: rotateY(180deg);
+}
